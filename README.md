@@ -1,1 +1,0 @@
-# Fox-Goose-and-Bag-of-Beans-Puzzle-Planning
