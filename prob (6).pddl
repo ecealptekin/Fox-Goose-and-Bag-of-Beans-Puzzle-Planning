@@ -1,0 +1,18 @@
+(define (problem puzzle)
+	(:domain Farmer)
+	(:objects fox goose beans farmer)
+	(:init (IS-FOX fox)
+	       (IS-GOOSE goose)
+	       (IS-BEANS beans)
+	       (IS-FARMER farmer)
+    	   (onLeft fox)
+	       (onLeft goose)
+	       (onLeft beans)
+	       (onLeft farmer))
+	(:goal (and
+		(not (onLeft fox))
+		(not (onLeft goose))
+		(not (onLeft beans))
+		(not (onLeft farmer))))
+)
+
